@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/vinicius-ryan/databases/WebAPIProdutos",
+      "type": "mssql.azure",
+      "connectionId": "WebAPIProdutosContext",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
